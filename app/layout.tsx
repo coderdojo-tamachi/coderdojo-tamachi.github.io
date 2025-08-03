@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   generator: 'v0.dev',
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/coderdojo-tamachi-logo.svg', type: 'image/svg+xml' }
+      { url: 'favicon.svg', type: 'image/svg+xml' },
+      { url: 'coderdojo-tamachi-logo.svg', type: 'image/svg+xml' }
     ],
   },
 }
@@ -27,8 +27,8 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="alternate icon" href="/coderdojo-tamachi-logo.svg" type="image/svg+xml" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+        <link rel="alternate icon" href="coderdojo-tamachi-logo.svg" type="image/svg+xml" />
       </head>
       <body className={inter.className}>
         {children}
