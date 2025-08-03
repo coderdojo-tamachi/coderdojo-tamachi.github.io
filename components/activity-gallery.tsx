@@ -47,7 +47,7 @@ export default function ActivityGallery() {
             key={index}
             className="min-w-[300px] md:min-w-[500px] h-[300px] md:h-[350px] relative rounded-lg overflow-hidden snap-center"
           >
-            <Image src={image.src || "/placeholder.svg"} alt={image.alt} fill className="object-cover" />
+            <Image src={image.src || "placeholder.svg"} alt={image.alt} fill className="object-cover" />
           </div>
         ))}
       </div>
