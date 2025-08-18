@@ -11,8 +11,7 @@ const nextConfig = {
   },
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/coderdojo-tamachi.github.io' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/coderdojo-tamachi.github.io' : '',
+  distDir: 'out',
 }
 
 export default nextConfig
