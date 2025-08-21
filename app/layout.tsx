@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     images: ['https://coderdojo-tamachi.github.io/coderdojo-tamachi-logo.svg'],
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    google: 'kPLEiPDqeUsTypXdTPLXKaSW8xFhcG4rFL3K1knJdXY',
   },
   alternates: {
     canonical: 'https://coderdojo-tamachi.github.io',
