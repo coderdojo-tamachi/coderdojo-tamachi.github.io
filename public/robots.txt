@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://coderdojo-tamachi.github.io/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
