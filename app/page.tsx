@@ -429,13 +429,19 @@ export default function Home() {
                         <span>{event.venue}</span>
                       </div>
                       <div className="pt-4">
-                        <Link
-                          href={event.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button className="bg-[#0fa6ba] hover:bg-[#0fa6ba]/90">参加申し込み</Button>
-                        </Link>
+                        {event.url ? (
+                          <Link
+                            href={event.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <Button className="bg-[#0fa6ba] hover:bg-[#0fa6ba]/90">参加申し込み</Button>
+                          </Link>
+                        ) : (
+                          <Button disabled className="bg-muted text-muted-foreground cursor-not-allowed">
+                            申し込み準備中
+                          </Button>
+                        )}
                       </div>
                     </div>
                   </div>
