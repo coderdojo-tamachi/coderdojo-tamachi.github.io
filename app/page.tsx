@@ -549,9 +549,29 @@ export default function Home() {
             />
             <p className="text-center text-sm leading-loose md:text-left">
               &copy; {new Date().getFullYear()} CoderDojoたまち. All rights reserved.
+              <span className="text-xs text-muted-foreground ml-2">
+                |
+                <Link
+                  href="https://docs.google.com/document/d/13zuXZBrL1AMi5CTfkopTDbgf44Lr0fihTimRXn7xhec/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline hover:text-[#0fa6ba] mx-1"
+                >
+                  会則
+                </Link>
+                |
+                <Link
+                  href="https://docs.google.com/spreadsheets/d/1F2cOHIATZbsJh8EV4nLILOdxeW6MKhuqEGpkhdZY00M/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline hover:text-[#0fa6ba] ml-1"
+                >
+                  会計帳簿
+                </Link>
+              </span>
             </p>
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-1 items-center justify-end space-x-4">
             <Link
               href="https://x.com/dojoTamachi"
               target="_blank"
